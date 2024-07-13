@@ -1,0 +1,60 @@
+/* .app-div {
+    padding-top: 20px;
+  }
+  
+  .Shadow {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .details {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+  }
+   */
+
+
+
+   .app-div {
+    padding-top: 20px;
+  }
+  
+  .Shadow {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    width: 100%; /* Set to 100% of the card width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 10px;
+  }
+  
+  .details {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
